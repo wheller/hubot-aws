@@ -25,7 +25,8 @@ Add the Hubot Slack app to your Slack account to obtain a token.  [https://slack
 sudo docker run -d --name "hubot" -e HUBOT_SLACK_TOKEN=MY_HUBOT_SLACK_TOKEN -v /local/path/to/hubot/scripts:/home/hubot/scripts phirephly/hubot-aws:latest
 ```
 
-# Start hubot with alternate adapter (additional appropriate connection environemnt variables will probably be required)
+# Start hubot with alternate adapter 
+additional appropriate connection environment variables will probably be required
 ```
 sudo docker run -d --name "hubot" -v /local/path/to/hubot/scripts:/home/hubot/scripts phirephly/hubot-aws:latest --adapter my_other_adapeter
 ```
