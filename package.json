@@ -1,0 +1,38 @@
+{
+  "name": "slack-chatops-docker",
+  "version": "1.0.0",
+  "description": "Hubot Chatops Slack Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill Heller <npm@PHirePhly.com> (http://www.PHirePhly.com)",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.15"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.430.0",
+    "hubot": "^3.3.1",
+    "hubot-alias": "^0.1.11",
+    "hubot-auth": "^2.1.0",
+    "hubot-diagnostics": "^1.0.0",
+    "hubot-github": "^0.2.0",
+    "hubot-gocd": "0.0.6",
+    "hubot-google-images": "^0.2.7",
+    "hubot-google-translate": "^0.2.1",
+    "hubot-help": "^1.0.1",
+    "hubot-heroku-keepalive": "^1.0.3",
+    "hubot-maps": "0.0.3",
+    "hubot-pugme": "^0.1.1",
+    "hubot-redis-brain": "^1.0.0",
+    "hubot-rules": "^1.0.0",
+    "hubot-s3-brain": "^0.2.0",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shipit": "^0.2.1",
+    "hubot-slack": "^4.6.0",
+    "hubot-standup-alarm": "^0.1.0",
+    "hubot-youtube": "^1.1.1",
+    "imgcache": "^0.3.3"
+  }
+}
