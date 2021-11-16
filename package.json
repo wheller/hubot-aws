@@ -12,7 +12,7 @@
     "node": ">=8.15"
   },
   "dependencies": {
-    "aws-sdk": "^2.430.0",
+    "aws-sdk": "^2.814.0",
     "hubot": "^3.3.1",
     "hubot-alias": "^0.1.11",
     "hubot-auth": "^2.1.0",
